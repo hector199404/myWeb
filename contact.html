@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="styles-contact.css">
+    </head>
+    <body>
+        <h1><span>Contacto</span></h1>
+        <p id="description">Envía la solicitud llenando los campos</p>
+        <form method="post" action='#'>
+            <fieldset>
+                <label for="first-name">Enter Your Name: <input id="first-name" name="first-name" type="text" required placeholder="Your name and last name"/></label>
+                <label for="email">Enter Your Email: <input id="email" name="email" type="email" required placeholder="your@email.com"/></label>
+                <label for="bio">Question: 
+                    <textarea id="bio" name="bio" rows="3" cols="30" placeholder="What do you need?"></textarea>
+                  </label>
+            </fieldset>
+        </form>
+        <a class="button" href="#">Submit</a>
+    </body>
+    <a href="index.html">Back</a>
+</html>
